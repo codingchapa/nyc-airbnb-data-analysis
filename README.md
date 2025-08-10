@@ -5,10 +5,6 @@ This project analyzes and cleans New York City Airbnb listings data to explore p
 
 ## 📂 Dataset
 - **Source:** [Inside Kraggle](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata)
-- Two versions included:
-  - `Excel_Airbnb_Data.xlsx` (excel data)
-  - `Cleaned_Airbnb_Data_wo_Index.csv` (cleaned data)
-- The cleaned dataset removes duplicates, fixes inconsistent text formatting, and handles missing values.
 
 ## 🛠️ Data Cleaning Process
 
@@ -40,3 +36,8 @@ The dataset was cleaned in Python using Pandas. The following steps were perform
 5. **Additional Transformations**
    - Changed datatype from str to int for 'price'
    - Created a cleaned dataset saved as `Cleaned_Airbnb_Data_wo_Index.csv`
+  
+## Two versions included:
+  - `Excel_Airbnb_Data.xlsx` (excel data)
+  - `Cleaned_Airbnb_Data_wo_Index.csv` (cleaned data)
+- The cleaned dataset removes duplicates, fixes inconsistent text formatting, and handles missing values.
