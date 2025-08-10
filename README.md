@@ -29,12 +29,12 @@ The dataset was cleaned in Python using Pandas. The following steps were perform
    - Removed duplicates
    - Dropped rows with missing values in critical fields such as `price` and `room_type`.
 
-5. **Cleaning Individual Columns**  
+4. **Cleaning Individual Columns**  
    - Standardized text values (e.g., neighborhood names)
    - Changed datatype from str to int for 'price'
    - Ensured numeric columns had the correct data types
 
-6. **Additional Transformations**
+5. **Additional Transformations**
    - Removed index column
    - Created a cleaned dataset saved as `Cleaned_Airbnb_Data_wo_Index.csv`
   
