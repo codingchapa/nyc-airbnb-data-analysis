@@ -27,7 +27,7 @@ The dataset was cleaned in Python using Pandas. The following steps were perform
 
 2. **Renaming Columns for Readability**  
    - Converted column names to lowercase
-   - Replaced spaces with underscores (`neighbourhood group` → `neighbourhood_group`)
+   - Replaced spaces with underscores (`NAME` → `name`)
 
 3. **Removing NaN Values**  
    - Dropped rows with missing values in critical fields such as `price` and `room_type`.
@@ -37,6 +37,6 @@ The dataset was cleaned in Python using Pandas. The following steps were perform
    - Converted date fields to `datetime` format
    - Ensured numeric columns had the correct data types
 
-5. **Additional Transformations**  
-   - Removed extreme outliers (price above $1000)
+5. **Additional Transformations**
+   - Changed datatype from str to int for 'price'
    - Created a cleaned dataset saved as `Cleaned_Airbnb_Data_wo_Index.csv`
